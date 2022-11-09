@@ -1,6 +1,7 @@
-package go_lib
+package client
 
 import (
+	"github.com/sneal/go-lib/resource"
 	"time"
 )
 
@@ -14,8 +15,8 @@ func NewClient(url string) *Client {
 	}
 }
 
-func (c *Client) GetApp(guid string) *App {
-	return &App{
+func (c *Client) GetApp(guid string) *resource.App {
+	return &resource.App{
 		GUID:      guid,
 		CreatedAt: time.Time{},
 		UpdatedAt: time.Time{},

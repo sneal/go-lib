@@ -1,4 +1,4 @@
-package go_lib
+package resource
 
 import "time"
 
