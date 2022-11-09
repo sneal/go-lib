@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/sneal/go-lib/resource"
+	"github.com/sneal/go-lib/v3/resource"
 	"time"
 )
 
