@@ -20,7 +20,7 @@ func (c *Client) GetApp(guid string) *resource.App {
 		GUID:      guid,
 		CreatedAt: time.Time{},
 		UpdatedAt: time.Time{},
-		Name:      "test app v3",
+		Name:      "test app v3 - new and improved",
 		State:     "RUNNING",
 		Links:     nil,
 	}
